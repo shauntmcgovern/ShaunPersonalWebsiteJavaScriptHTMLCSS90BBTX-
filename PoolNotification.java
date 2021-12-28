@@ -2,7 +2,7 @@ package com.hfad.poolNotification;
 
 //Android Development//
 <string name="app_name">Pool</string>
-<string name="permission_denied">No query listed</string>
+<string name="permission_denied">No Queues Listed</string>
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ public class PoolNotification extends MainActivity
 
     NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
                     .setSmallIcon(android.R.drawable.ic_men_compass)
-                    .setContentTitle("Query Display")
+                    .setContentTitle("Query Was Displayed")
                     .setPriority(NotificationCompat.PRIORITY_HIGH)
                     .setVibrate(new long[] {0, 1000})
                     .   setAutoCancel   (true);

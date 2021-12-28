@@ -1,6 +1,6 @@
 package com.hfad.poolNotification;
 
-//Android Development//
+//Android Development he is this kind of developer? $?//
 <string name="app_name">Pool</string>
 <string name="permission_denied">No Queues Listed</string>
 

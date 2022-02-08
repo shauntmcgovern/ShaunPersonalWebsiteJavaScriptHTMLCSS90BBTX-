@@ -4,22 +4,124 @@
   <meta charset="utf-8">
   <title> Artwork </title>
   <style>
-    body { margin: 60px; }
-    img { margin: 20px; }
+    .container {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        display: block;
+        width: auto;
+        height: auto;
+     }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #000000;
+     }
+
+    .container:hover .overlay {
+        opacity: 1;
+     }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 <body>
-	<img id="zero" src="images/YourTimeIsGonnaCome.jpg">
-	<img id="one" src="images/BigWalkDogFeature.jpg">
-	<img id="two" src="images/Apparatus.jpg">
-	<img id="three" src="images/ThisPieceCameTogetherWellTowardsTheEndHere.jpeg">
-	<img id="four" src="images/theMarcJacobsResponse.jpeg">
-	<img id="five" src="images/TwoTimesMeansBothWholes.jpeg">
-    <img id="six" src="images/TheThuleGrimioresGuidanceTracks5Through7rozepiece010222.jpg">
-    <img id="seven" src="images/TheSophistication010422.jpg">
-    <img id="eight" src="images/WhatIsStoppingUsFromGoing.jpeg">
-    <img id="nine" src="images/TheOxypotentHydrogeneticEquationTimes3BuildUpHowMany.jpeg">
-    <img id="ten" src="images/TownHouseHumbleAbodeCenter.jpg">
+    <div class="container">
+    <img src="images/YourTimeIsGonnaCome.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">Your Time Is Gonna Come</div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <img src="images/BigWalkDogFeature.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">Big Walk Dog Feature</div>
+    </div>
+    </div>
+    
+	<div class="container">
+    <img src="images/Apparatus.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">Apparatus</div>
+    </div>
+    </div>
+    
+	<div class="container">
+    <img src="images/ThisPieceCameTogetherWellTowardsTheEndHere.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">This Piece Came Together Well Towards The End Here</div>
+    </div>
+    </div>
+    
+	<div class="container">
+    <img src="images/theMarcJacobsResponse.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">The Marc Jacobs Response</div>
+    </div>
+    </div>
+    
+	<div class="container">
+    <img src="images/TwoTimesMeansBothWholes.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">Two Times Means Both Wholes</div>
+    </div>
+    </div>
+    
+	<div class="container">
+    <img src="images/TheThuleGrimioresGuidanceTracks5Through7rozepiece010222.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">The Thule Grimiores Guidance Tracks 5 Through 7, 1/2/22</div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <img src="images/TheSophistication010422.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">The Sophistication, 1/4/22</div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <img src="images/WhatIsStoppingUsFromGoing.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">What Is Stopping Us From Going</div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <img src="images/TheOxypotentHydrogeneticEquationTimes3BuildUpHowMany.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">The Oxypotent Hydrogenetic Equation Times 3 Build Up How Many</div>
+    </div>
+    </div>
+    
+    <div class="container">
+    <img src="images/TownHouseHumbleAbodeCenter.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+    <div class="text">TownHouse Humble Abode Center</div>
+    </div>
+    </div>
+    
+    
     <img id="eleven" src="images/TheCircusTentIsOpen010422.jpg">
     <img id="twelve" src="images/TheBannerArtwork010422.jpg">
     <img id="thirteen" src="images/SymposiumOfMonumentalDecisionsANDStateOfTheArtOnTechnology.jpeg">

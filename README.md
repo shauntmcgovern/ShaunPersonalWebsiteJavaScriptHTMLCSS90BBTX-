@@ -6,4 +6,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Will incorporate more borders, more description in the body & try to include some javascript functions. 
 * Then wrap it up with a pretty jQuery feature.
 * //I cannot upload an entire folder file through this Chromebook only the individual files.
-* Just added 2 buttons & 1 image-class-button for my LinkedIn, the twitter accoun & Github Profile.
+* Just added 2 buttons & 1 image-class-button for my LinkedIn, the twitter account & my Github Profile.

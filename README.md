@@ -11,3 +11,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Spaced out the images better.
 * Reordering of images & better margins & more br's
 * The images are being selected from the folder they are in now.
+* Now the first 3 images if you click one of them go to new webpages with a bigger sole image. It is yet to fit right.

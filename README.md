@@ -9,3 +9,5 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Just added 2 buttons & 1 image-class-button for my LinkedIn, the twitter account & my Github Profile.
 * Centered the titles of the illustrations & gave the buttons borders & sizes.
 * Spaced out the images better.
+* Reordering of images & better margins & more br's
+* The images are being selected from the folder they are in now.

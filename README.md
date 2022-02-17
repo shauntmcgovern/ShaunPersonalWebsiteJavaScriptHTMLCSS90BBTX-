@@ -14,3 +14,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Now the first 3 images if you click one of them go to new webpages with a bigger sole image.
 * Now the illustrations fit correctly in the next html page. Then just click the browswer back button.
 * Completed html pages for the top six images. So if a user clicks the image they can enlarge.
+* Now images 1-9 can be enlargedski's & you can go backski's

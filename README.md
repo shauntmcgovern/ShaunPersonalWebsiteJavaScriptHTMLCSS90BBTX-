@@ -17,3 +17,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Now images 1-9 can be enlargedski's & you can go backski's
 * Now images 1-12 have there own webpage & you can then go back.
 * images 1-15 can now be enlarged.
+* All images have their own webpage if you click them && now you can clearly see them bigger. Full screen.

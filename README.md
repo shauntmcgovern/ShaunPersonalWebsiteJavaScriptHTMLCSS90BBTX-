@@ -19,5 +19,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * images 1-15 can now be enlarged.
 * All images have their own webpage if you click them && now you can clearly see them bigger. Full screen.
 * Now I have an embedded Twitter widget. That updates automatically from the Twitter account, @IntPresident.
-* [Javascript API](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview)
-* I would of like to have learned that manually with javascript but Twitter does the work for you.
+* [Javascript API](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview), I would of like to have learned that manually with javascript but Twitter does the work for you.

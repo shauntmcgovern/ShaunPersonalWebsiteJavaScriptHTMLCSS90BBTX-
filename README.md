@@ -22,3 +22,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * [Javascript API](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview), I would of like to have learned that manually with javascript but Twitter does the work for you.
 * Excellent, 2/28/22
 * Thats a nice little footer.
+* now the footer Rescales to every ScreenSize && Device.

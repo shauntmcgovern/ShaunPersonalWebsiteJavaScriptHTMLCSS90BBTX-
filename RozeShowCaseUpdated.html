@@ -68,13 +68,9 @@
        }
     }
    .footer {
-	  position: static;
-	  left: 0;
-	  bottom: 0;
-	  width: 10%;
-	  background-color: red;
-	  color: white;
-	  text-align: center;
+       position: contain;
+       left: 0;
+       bottom: 0;
    }  
   </style>
 </head>
@@ -392,8 +388,8 @@
 </div>
 
 <div class="footer">
-  <img src="images/cropFooter.jpg" style="width: 1900px; object-fit: contain;">
-</div>
-
+  <img src="images/cropFooter.jpg" style="max-width: 100%; height: auto; width: auto; object-fit: contain;">
+</div>	
+	
 </body>
 </html>

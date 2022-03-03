@@ -23,3 +23,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Excellent, 2/28/22
 * Thats a nice little footer.
 * now the footer Rescales to every ScreenSize && Device.
+* The Recscalin' Footer is filled in with Gray to match, the headers are all White && the body is now grey style="background-color:#808080;"

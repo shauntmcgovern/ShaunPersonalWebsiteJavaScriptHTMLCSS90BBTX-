@@ -26,3 +26,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * The Recscalin' Footer is filled in with Gray to match, the headers are all White && the body is now grey style="background-color:#808080;"
 * Row && Column have margin-right && margin-left now are both 0.0 no padding is necessary.
 * Different data-widget-id for twitter feed.
+* Now you got a weather js.widget in the bottom there then I'm going to play around with it.

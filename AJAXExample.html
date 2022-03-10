@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C/DTD XHTML 1.1//EN" xml:lang="en">
+
+<head>
+    <title>AJAX Example</title>
+    <script languague="JavaScript">
+    var request = false;
+    
+    function sendAjaxRequest(toUrl) {
+        if (window.XMLHttpRequest) {
+            request = newXMLHttpRequest();
+        }
+        else if (window.ActiveXObject) {
+            request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        if (request) {
+            request.onreadystatechange = processReadyStateChange;
+            request.open('GET', toUrl, true);
+            request.send("");
+        }
+     }
+     
+     function updateTemperature(msg) {
+        var contentDiv = document.getElementById("ajaxTarget");
+        contentDiv.innerHTML = msg;
+     }
+     
+     function getLatestTemp() {
+        sendAjaxRequest("temp.txt");
+     }
+     
+     function processReadyStateChange() {
+        if (request.readyState == 4) {
+            if (request.status == 200) {
+                updateTempature(request.responseText);
+            }
+            else {
+                alert("An error occurred.");
+            }
+        }
+     }
+     </script>
+</head>
+
+<body>
+    <p>
+        Current Tempature:
+        <div id="ajaxTarget" style="font-size: x-large;"> 90 degrees </div>
+    </p>
+    
+    <p>
+        <button onclick="getLatestTemp() "> Update Tempature </button>
+    </p>
+</body>
+</html>
+            
+            
+            
+            
+            
+            
+            

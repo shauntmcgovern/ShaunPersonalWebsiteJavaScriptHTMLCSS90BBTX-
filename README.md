@@ -29,3 +29,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Now you got a weather js.widget in the bottom there then I'm going to play around with it.
 * This <weatherwidget-io> is displaying in Fahrenheit from this websites javascript [Forcast 7](https://forecast7.com/en/41d88n87d63/chicago/?unit=us)
 * I need to purchase an API to be able to use Accuweather to build javascript functions to communicate with its API
+* Now the buttons open up their webpages into a new tab with the "_blank" command.

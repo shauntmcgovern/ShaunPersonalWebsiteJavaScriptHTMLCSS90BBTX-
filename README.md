@@ -33,3 +33,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Now all of the column images have the same border color as the color of the buttons, strawberry. Then the font inside is a banana yellow.
 * The button borders are now the hex color #000000 which is solid black.
 * I could only make the weather widget get a strawberry border. The twitter widget is not accepting a border perhaps because u can scroll.
+* Now if you click one of the pieces && you are brought to the next page with it in full screen it has the #ffe347 banana yellow background color.

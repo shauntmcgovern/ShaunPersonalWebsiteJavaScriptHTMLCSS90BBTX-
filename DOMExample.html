@@ -1,3 +1,4 @@
+<!--Web Publishing with HTML && CSS, Lesson 15, Laura Lemay && Rafe Colburn, 2006 SAMS -->
 <html>
 <head>
 <title>DOM Example</title>
@@ -18,7 +19,7 @@ function tackOn(headingText)
 		if (headingText)
 		{
 			var newHeading = document.createElement("h1");
-			someText = document.createTextNode(headingText)
+			someText = document.createTextNode(headingText);
 			newHeading.appendChild(someText);
 			document.body.appendChild(newHeading);
 		}
@@ -50,4 +51,11 @@ function setHeadingColors()
 	Add heading:
 	<input type="text" value="Spam" id="newHeading" />
 	<input type="button" value="tack it on"
-		onclick="tackOn(documen.getElementById
+		onclick="tackOn(document.getElementById('newHeading').value);" />
+	<br />
+	<input type="button" value="change colors"
+		onclick="setHeadingColors();" />
+</form>
+
+</body>
+</html>

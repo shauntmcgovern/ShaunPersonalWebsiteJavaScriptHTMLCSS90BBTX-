@@ -38,4 +38,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * The two buttons I have on either side of the Twitter fa-fa button are the font-family Agency FB, Impact, monospace &&
   the titles of each piece of Artwork are now part of the w3 school example font-family Lucida Console, Courier New, monospace.
 * DOM stands for Document Object Model. Very similar to a HUD you see in a video game. Or the Heads Up Display a pilot uses to see information.
-* Updated the border color to the hex color, #98FB98, otherwise known as the Moschino Drama, Big Hair, Big Scoop.
+* Updated one of the borders to the hex color, #98FB98, otherwise known as the Moschino Drama, Big Hair, Big Scoop.

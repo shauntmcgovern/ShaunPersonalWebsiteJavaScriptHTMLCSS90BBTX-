@@ -13,6 +13,12 @@ function hideMenu(idToHide)
     }
 }
 
+function flee(menu)
+{
+  menu.style.left = ((Math.random() * 80) + 10) + '%';
+  menu.style.top = ((Math.random() * 80) + 10) + '%';
+}
+   
 </script>
 
 <style type="text/css">
@@ -45,16 +51,25 @@ function hideMenu(idToHide)
 </head>
 
 <body>
+  
 <div onclick="hideMenu('menu2');" id="menu"><b>Links</b><br />
 <a href="http://www.yahoo.com/">Yahoo</a><br />
 <a href="http://www.salon.com/">Salon</a><br />
 <a href="http://www.slashdot.org/">Slashdot</a><br />
 </div>
+  
 <div onclick="hideMenu('menu');" id="menu2"><b>More Links</b><br />
 <a href="http://www.google.com/">Google</a><br />
 <a href="http://www.slate.com/">Slate</a><br />
 <a href="http://www.wired.com/">Wired</a><br />
 </div>
+
+<div onmouseover="flee(this);" id="menu"><b>Links</b><br />
+<a href="http://www.yahoo.com/">Yahoo</a><br />
+<a href="http://salon.com/">Salon></a><br />
+<a href="http://www.slashdot.org/">Slashdot</a><br />
+</div>
+
 </body>
 </html>
 

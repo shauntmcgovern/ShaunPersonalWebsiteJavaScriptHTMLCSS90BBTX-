@@ -39,3 +39,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
   the titles of each piece of Artwork are now part of the w3 school example font-family Lucida Console, Courier New, monospace.
 * DOM stands for Document Object Model. Very similar to a HUD you see in a video game. Or the Heads Up Display a pilot uses to see information.
 * Updated one of the borders to the hex color, #98FB98, otherwise known as the Moschino Drama, Big Hair, Big Scoop.
+* The DHTML Test Example.

@@ -20,6 +20,7 @@
             request.open('GET', toUrl, true);
             request.send("");
         }
+        
      }
      
      function updateTemperature(msg) {
@@ -54,11 +55,19 @@
         <button onclick="getLatestTemp() "> Update Tempature </button>
     </p>
 </body>
+<!--
+if (window.XMLHttpRequest) {
+    request = new XMLHttpRequest();
+}
+else if (window.ActiveXObject) {
+    request = new ActiveXObject("Microsoft.XMLHTTP");
+}
+    request.onreadystatechange = processReadyStateChange;
+    request.open("POST", "remote.cgi", true);
+    request.send("user=test");
+        
+    <a href="/" id="mylink" onclick="linkCLicked()">My link</a>
+    document.getElementById("mylink").onclick = linkClicked;
+    request.onreadystatechange = processReadyStateChange;
+-->
 </html>
-            
-            
-            
-            
-            
-            
-            

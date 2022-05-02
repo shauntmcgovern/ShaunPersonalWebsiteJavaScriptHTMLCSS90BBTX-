@@ -40,3 +40,7 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * DOM stands for Document Object Model. Very similar to a HUD you see in a video game. Or the Heads Up Display a pilot uses to see information.
 * Updated one of the borders to the hex color, #98FB98, otherwise known as the Moschino Drama, Big Hair, Big Scoop.
 * The DHTML Test Example.
+* For a client to server. All you need is a server where you have access. Then from there.
+  You build the client to communicate with it && that is where all your fixed && resting information
+  is now stored so you can use it with the client which is what you see. 
+  The client is the webpage. 

@@ -43,4 +43,5 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * For a client to server. All you need is a server where you have access. Then from there.
   You build the client to communicate with it && that is where all your fixed && resting information
   is now stored so you can use it with the client which is what you see. 
-  The client is the webpage. 
+  The client is the webpage. The server is a data server && handles your traffic && a list of other things for you
+  the person buying && using the server for your client to host on the world wide web.

@@ -45,5 +45,5 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
   Then from there.
   You build a client to communicate with the server && the server, is where all your fixed && resting information && data
   is now stored so you can use the client to display, edit && save with your personal client which is what the user sees.
-  The client is the webpage. The server is a data server && handles your traffic && a list of other things for you
-  housed && owned by a compnay of my choice && I use my personal && designated server space for my client to host on the world wide web.
+  The client is the webpage. The server is a data server && handles your traffic && a list of other things for your client.
+  It is then housed && owned by a company of my choice && I use my personal && designated server space purchased for my client to host on the world wide web.

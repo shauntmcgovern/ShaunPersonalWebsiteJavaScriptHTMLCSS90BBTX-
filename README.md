@@ -41,7 +41,7 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Updated one of the borders to the hex color, #98FB98, otherwise known as the Moschino Drama, Big Hair, Big Scoop.
 * The DHTML Test Example.
 * For a client to server. 
-  All you need is a private server where you have access. Amazon, Microsoft.
+  All you need is a private server where you have access. Amazon || Microsoft.
   Then from there.
   You build a client to communicate with the server && the server, is where all your fixed && resting information && data
   is now stored so you can use the client to display, edit && save with your personal client which is what the user sees.

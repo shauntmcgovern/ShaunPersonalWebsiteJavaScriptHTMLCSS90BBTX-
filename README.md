@@ -47,3 +47,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
   is now stored so you can use the client to display, edit && save with your personal client which is what the user sees.
   The client is the webpage. The server is a data server && handles your traffic && a list of other things for your client.
   It is then housed && owned by a company of my choice && I use my personal && designated server space I purchased for my client so I can then host it on the world wide web.
+* Just added a JS function that if you click the footer which is now a 'big button.' You can change the background color to really Red && see the webpage with a new background color && I have yet to put another command to change to any another .bg color available (there is only so many HTML can accept) || javascript back to the original chosen grey colour. 

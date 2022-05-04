@@ -68,6 +68,8 @@
     .weatherwidget-io {
         border: 6px solid #98FB98;
     }
+	  
+    <!--
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 800px) {
     .column {
@@ -83,6 +85,8 @@
        max-width: 100%;
        }
     }
+    -->
+	  
    .footer {
        position: contain;
        left: 0;
@@ -251,7 +255,7 @@
 	    	}
 	 }
          (document,"script","twitter-wjs");
-    </script>    
+   </script>    
   </div>
 	
   <div class="column">
@@ -421,9 +425,15 @@
     </div>
 </div>
 
+<script>
+	function changeBackgroundColor() {
+		document.body.style.backgroundColor = "red";
+	}
+</script>
 <div class="footer">
-  <img src="images/cropFooterGray.jpg" style="max-width: 100%; height: auto; width: auto; object-fit: contain;">
-</div>	
+  <img src="images/cropFooterGray.jpg" button type="button" onclick="changeBackgroundColor()"
+   style="max-width: 100%; height: auto; width: auto; object-fit: contain;">
+</div>
 	
 </body>
 </html>

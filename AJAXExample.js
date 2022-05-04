@@ -9,31 +9,31 @@
     var request = false;
     var ajaxreq = false, ajaxCallback;
 	
-	function ajaxRequest(filename) {
-		try {
-		// Firefox / Chrome / Edge / Others
-		ajaxreq = new XMLHttpRequest();
-		} catch (error) {
-			try {
-			// IE 5 / IE 6
+    function ajaxRequest(filename) {
+	    try {
+	    // Firefox / Chrome / Edge / Others
+	    ajaxreq = new XMLHttpRequest();
+	    } catch (error) {
+	    	try {
+	    	// IE 5 / IE 6
 			ajaxreq = new ActiveXObject("Microsoft.XMLHTTP");
-			} catch (error) {
-				return false;
-			}
-		}
-		ajaxreq.open("GET", filename);
-		ajaxreq.onreadystatechange = ajaxResponse;
-		ajaxreq.send(null);
-	}
-	function ajaxResponse() {
-		if (ajaxreq.readyState != 4) return;
-		if (ajaxreq.status == 200) {
-			//if the request succeeded...
-			if (ajaxCallBack) ajaxCallBack();
-		} 
-		else alert("Request failed: " + ajaxreq.statusText);
-		return true;
-	}
+	    	} catch (error) {
+			return false;
+	        }
+            }
+	    ajaxreq.open("GET", filename);
+	    ajaxreq.onreadystatechange = ajaxResponse;
+	    ajaxreq.send(null);
+    }
+    function ajaxResponse() {
+	     if (ajaxreq.readyState != 4) return;
+	     if (ajaxreq.status == 200) {
+	     	//if the request succeeded...
+	     	if (ajaxCallBack) ajaxCallBack();
+	     } 
+	     else alert("Request failed: " + ajaxreq.statusText);
+	     return true;
+    }
 	
     function sendAjaxRequest(toUrl) {
         if (window.XMLHttpRequest) {
@@ -49,16 +49,13 @@
         }
         
      }
-     
      function updateTemperature(msg) {
         var contentDiv = document.getElementById("ajaxTarget");
         contentDiv.innerHTML = msg;
      }
-     
      function getLatestTemp() {
         sendAjaxRequest("temp.txt");
      }
-     
      function processReadyStateChange() {
         if (request.readyState == 4) {
             if (request.status == 200) {

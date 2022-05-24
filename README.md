@@ -4,7 +4,7 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * The RozeShowCaseTitleColumnRow.html is working with margins & you can see all my artwork. 
 * I have not hosted it, freely as of yet. 
 * Will incorporate more borders, more description in the body & try to include some javascript functions. 
-* Then wrap it up with a pretty jQuery feature.
+* Then wrap it up with a pretty jQuery feature.//yet to be done.
 * //I cannot upload an entire folder file through this Chromebook only the individual files.
 * Just added 2 buttons & 1 image-class-button for my LinkedIn, the twitter account & my Github Profile.
 * Centered the titles of the illustrations & gave the buttons borders & sizes.
@@ -49,3 +49,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
   It is then housed && owned by a company of my choice && I use my personal && designated server space I purchased for my client so I can then host it on the world wide web. You have 2 different codebases. Both are housed on your chosen company servers. You have your server codebase && your client's codebase. The client && the server can be saved && edited && updated through github or another company of your choosing. The server code is written differently than the clients codebase.
 * Just added a JS function that if you click the footer which is now a 'big button.' You can change the background color to really Red && see the webpage with a new background color && I have yet to put another command to change to any another .bg color available (there is only so many HTML can accept) || javascript back to the original chosen grey colour. For now if you click your browsers or mobile phones refresh button the background will go back to grey.
 * I just added my Instagram account button which pulls the skin && icon from this library uploaded stylesheet from cloudflare. Right above the twitter feed updated.
+* Now all of the buttons are correctly 'Centered.' The 'footer button' is a button all by itself. It isnt part of the 'button' class in my css.

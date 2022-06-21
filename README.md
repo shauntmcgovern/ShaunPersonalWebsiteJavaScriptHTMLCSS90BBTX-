@@ -50,3 +50,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Just added a JS function that if you click the footer which is now a 'big button.' You can change the background color to really Red && see the webpage with a new background color && I have yet to put another command to change to any another .bg color available (there is only so many HTML can accept) || javascript back to the original chosen grey colour. For now if you click your browsers or mobile phones refresh button the background will go back to grey.
 * I just added my Instagram account button which pulls the skin && icon from this library uploaded stylesheet from cloudflare. Right above the twitter feed updated.
 * Now all of the buttons are correctly 'Centered.' The 'footer button' is a button all by itself. It isnt part of the 'button' class in my css.
+* [Facebook Profile](https://www.facebook.com/shaun.mcgovern.90/) if you wanna see it.

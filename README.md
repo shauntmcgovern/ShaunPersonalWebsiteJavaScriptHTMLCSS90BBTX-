@@ -51,4 +51,4 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * I just added my Instagram account button which pulls the skin && icon from this library uploaded stylesheet from cloudflare. Right above the twitter feed updated.
 * Now all of the buttons are correctly 'Centered.' The 'footer button' is a button all by itself. It isnt part of the 'button' class in my css.
 * [Facebook Profile](https://www.facebook.com/shaun.mcgovern.90/), if you wanna see it. 
-* I could make my Exquisit Man && his brand switch over to the book. same thing.
+* I could make my Exquisite Man && his brand switch over to the book. same thing.

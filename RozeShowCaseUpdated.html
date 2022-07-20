@@ -439,6 +439,30 @@
   <img src="images/cropFooterGray.jpg" button type="button" onclick="changeBackgroundColor()"
    style="max-width: 100%; height: auto; width: auto; object-fit: contain;">
 </div>
-	
+<!-- 
+	if (document.images) {
+		//manipulate image object here
+	}
+	if (document.images) {
+		buttonOn = new Image();
+		buttonOn.src = "on.gif";
+		buttonOff = new Image();
+		buttonOff.src = "off.gif";
+	}
+	function activate(image_name) {
+		if (document.images) {
+			document[image_name].src = eval(image_name + "On.src");
+		}
+	}
+	function deactivate(image_name) {
+		if (document.images) {
+			document[image_name].src = eval(image_name + "Off.src");
+		}
+	}
+	<a href="rollover.html"
+		onmouseover="activate('button')"
+		onmouseout="deactivate('button')">
+ 	<img name="button" border=0 height=100 width=100 src="off.gif"></a>
+-->
 </body>
 </html>

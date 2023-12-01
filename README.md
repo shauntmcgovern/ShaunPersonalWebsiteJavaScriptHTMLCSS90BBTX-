@@ -18,7 +18,7 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * Now images 1-12 have there own webpage & you can then go back.
 * images 1-15 can now be enlarged.
 * All images have their own webpage if you click them && now you can clearly see them bigger. Full screen.
-* Now I have an embedded Twitter widget. That updates automatically from the Twitter account, @IntPresident.
+* Now I have an embedded Twitter widget. That updates automatically from the Twitter account, @rozeNameRoze.
 * [Javascript API](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview), I would of like to have learned that manually with javascript but Twitter does the work for you.
 * Excellent, 2/28/22
 * Thats a nice little footer.
@@ -54,3 +54,5 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * I could make my Exquisite Man && his brand switch over to the book. same thing.
 * You have a small team of developers. You have 1, senior developer leading the way, deciding how to execute the client && server then successfully hosting it on a web server of the, client's choosing. Then the senior developer develops milestones for the junior developer && this is what exactly to do && what pieces to put where. You incoporate the visual artist's && media designer's work, you work with the business company suppling the store the client wants to use, the various hyperlinks && other media's the client has, you include the other companies that the client wants to work with. Then you successfully host it online. At that time, you have to communicate with the web hosting company but as long as the company can see the files most likely on their web servers than they can publicly display the web address for everyone to see && use. Then if you get further into that, what the website hosting company is doing is communicating with our government && other subsidaries in order to host the website online, publicly. Which means they pay these systems in order to do business && that is host websites, any && all kinds.
 * From this point, I pick what company is interested in me. I deliver a mock-up of what programming && computer design tools they are using. So I can hit the ground running.
+* This is happening on Twitter's end.:(); as you can see I imported a different widget, that works as you can see in the ahref thatitisin' which is the command:;"'?/So until Twitter gets it act together it will display, "Nothing to see here - yet
+                                                                      n/'When they Tweet, their Tweets will show up here.*\n"" instead of the usual twtrr-timeline;

@@ -20,6 +20,69 @@ here you will find location. GEO location, that is now. Here && now in Barack Ob
 * All images have their own webpage if you click them && now you can clearly see them bigger. Full screen.
 * Now I have an embedded Twitter widget. That updates automatically from the Twitter account, @rozeNameRoze.
 * [Javascript API](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/overview), I would of like to have learned that manually with javascript but Twitter does the work for you.
+* //
+Facebook Login for the Web with the JavaScript SDK
+This document walks you through the steps of implementing Facebook Login with the Facebook SDK for JavaScript on your webpage.
+
+Before You Start
+You will need the following:
+
+A Facebook Developer Account 
+A Facebook App ID  for a website
+Basic Automatic Login Example
+The following code sample shows you how to add the Facebook SDK for Javascript to your webpage, initialize the SDK, and, if you are logged in to Facebook, will display your name and email. If you are not logged into Facebook, the login dialog popup window will automatically be displayed.
+
+The public_profile permission , which allows you to get publicly available information such as name and profile picture, and the email permission  do not require app review and are automatically granted to all apps using Facebook Login.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+
+    <h2>Add Facebook Login to your webpage</h2>
+
+      <!-- Set the element id for the JSON response -->
+    
+      <p id="profile"></p>
+
+      <script>
+  
+        <!-- Add the Facebook SDK for Javascript -->
+  
+        (function(d, s, id){
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) {return;}
+                              js = d.createElement(s); js.id = id;
+                              js.src = "https://connect.facebook.net/en_US/sdk.js";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk')
+        );
+
+
+        window.fbAsyncInit = function() {
+            <!-- Initialize the SDK with your app and the Graph API version for your app -->
+            FB.init({
+                      appId            : '{your-facebook-app-id}',
+                      xfbml            : true,
+                      version          : '{the-graph-api-version-for-your-app}'
+                    });
+            <!-- If you are logged in, automatically get your name and email adress, your public profile information -->
+            FB.login(function(response) {
+                      if (response.authResponse) {
+                           console.log('Welcome!  Fetching your information.... ');
+                           FB.api('/me', {fields: 'name, email'}, function(response) {
+                               document.getElementById("profile").innerHTML = "Good to see you, " + response.name + ". i see your email address is " + response.email
+                           });
+                      } else { 
+                           <!-- If you are not logged in, the login dialog will open for you to login asking for permission to get your public profile and email -->
+                           console.log('User cancelled login or did not fully authorize.'); }
+            });
+        };
+
+      </script>
+
+  </body>
+</html>//
 * Excellent, 2/28/22
 * Thats a nice little footer.
 * now the footer Rescales to every ScreenSize && Device.

@@ -2,7 +2,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C/DTD XHTML 1.1//EN" xml:lang="en">
+<!--
+//C#  *9.0* in a Nutshell(The Definitive Reference)'
+<script>
+string s1 = "Hello";
+string s2 = "First Line\r\nSecond Line";
+string s3 = @"\\server\fileshare\helloworld.cs";
 
+Console.Write (new string ('*', 10)); //*********
+
+char[] ca = "Hello".ToCharArray();
+string s = new string (ca);   //s="Hello"
+
+string empty = "";
+Console.WriteLine (empty == "");   //True
+Console.WriteLine (empty == string.Empty);   //True
+Console.WriteLine (empty.Length == 0);   //True
+
+string nullString = null;
+Console.WriteLine (nullString == null);   //True
+Console.WriteLine (nullString == "");   //False
+Console.WriteLine (nullString.Length == 0);   //NullReferenceException
+	    
+</script>-->
 <head>
     <title>AJAX Example</title>
     <script languague="JavaScript">
